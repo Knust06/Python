@@ -1,0 +1,27 @@
+Algorítmo é uma sequência de passos que você dará um nome 
+Com uma sequência de entradas e gera uma saída
+
+Em python existe 2 tipos de parâmetros:
+Posicional
+
+função que possua (p1,p2,p3)
+parâmetro         (2, 3, 4)
+será mapeado para cada um dos parâmetro na mesma ordem que você colocou
+
+Nomeado
+função que possua (p1,p2,3)
+Você pode mudar a ordem e local dos parâmetros
+parâmetro         (2,p3=1 , p2=2)
+
+
+Outros tipos de parâmetros
+
+*args importante o asterisco Vira Tupla
+**kwargs importante os  dois asteriscos Vira dicionário
+
+Vantagens parâmetro Nomeado 
+função(seguro, urgente) Variável verdadeiro ou falso
+
+função (True, False)
+
+função(seguro = falso, urgente = true)
